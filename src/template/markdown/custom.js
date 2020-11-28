@@ -58,12 +58,6 @@ color:#595959;
 
 /* 二级标题内容 */
 #nice h2 .content {
-  font-size: 18px;
-  font-weight: bold;
-  display: inline-block;
-  padding-left: 10px;
-  border-left: 5px solid #00BFFF;
-  color: #595959;
 
 }
 
@@ -74,13 +68,11 @@ color:#595959;
 #nice h3 {
   font-size: 16px;
   font-weight: bold;
-  text-align: center;
 }
 
 /* 三级标题内容 */
 #nice h3 .content {
-  border-bottom: 2px solid #00BFFF;
-  color: #595959;
+
 }
 
 /* 三级标题修饰 请参考有实例的主题 */
@@ -92,7 +84,6 @@ color:#595959;
 #nice ul {
   font-size: 15px; /*神奇逻辑，必须比li section的字体大才会在二级中生效*/
   color: #595959;
-  list-style-type: circle;
 }
 
 
@@ -112,43 +103,8 @@ color:#595959;
   color: #595959;
 }
 
-/* 引用
-* 左边缘颜色 border-left-color:black;
-* 背景色 background:gray;
-*/
-#nice blockquote::before {
-  content: "❝";
-  /*   color: #d9b8fa;*/
-  color: #00BFFF;
-  font-size: 34px;
-  line-height: 1;
-  font-weight: 700;
-}
-
-#nice blockquote {
-  text-size-adjust: 100%;
-  line-height: 1.55em;
-  font-weight: 400;
-  border-radius: 6px;
-  color: #595959;
-  font-style: normal;
-  text-align: left;
-  box-sizing: inherit;
-  border-left: none;
-  border: 1px solid #00BFFF;
-  background: #F5F5DC;
-
-}
-
 #nice blockquote p {
   color: #595959;
-}
-
-#nice blockquote::after {
-  content: "❞";
-  float: right;
-  /*   color: #d9b8fa; */
-  color: #00BFFF;
 }
 
 /* 链接
@@ -257,9 +213,8 @@ color:#595959;
   background: #F5F5DC;
   padding: 20px 20px 20px 20px;
   font-size: 14px;
-  border: 0.8px solid #00BFFF;
   border-radius: 6px;
-  border: 1px solid #00BFFF;
+  border: 1px solid #676e71;
 }
 
 /* 脚注文字 */
@@ -286,10 +241,8 @@ color:#595959;
 * 内容 content: "参考资料";
 */
 #nice .footnotes-sep:before {
-  content: 'Reference';
   color: #595959;
   letter-spacing: 1px;
-  border-bottom: 2px solid #00BFFF;
   display: inline;
   background: linear-gradient(white 60%, #F5F5DC 40%);
   font-size: 20px;
@@ -324,9 +277,6 @@ color:#595959;
   display: inline-block;
   width:100%;
   margin-bottom: 0;
-}
-#nice blockquote::before,#nice blockquote::after {
-  color:#C0C0C0;
 }
 #nice a {
   	color: #696969;
