@@ -155,7 +155,7 @@ color:#595959;
   height: 1px;
   padding: 0;
   border: none;
-  border-top: 2px solid #d9b8fa;
+  border-top: 2px solid #caced6;
 }
 
 /* 图片
