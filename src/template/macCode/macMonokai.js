@@ -75,19 +75,6 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   border-radius: 5px;
 }
 
-#nice .custom:before {
-  content: '';
-  display:block;
-  background: url(https://files.mdnice.com/point.png);
-  height: 30px;
-  width: 100%;
-  background-size:40px;
-  background-repeat: no-repeat;
-  background-color: #272822;
-  margin-bottom: -7px;
-  border-radius: 5px;
-  background-position: 10px 10px;
-}
 
 #nice .custom {
   border-radius: 5px;

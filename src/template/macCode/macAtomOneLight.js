@@ -101,20 +101,6 @@ hue-6-2: #c18401
   border-radius: 5px;
 }
 
-#nice .custom:before {
-  content: '';
-  display:block;
-  background: url(https://files.mdnice.com/point.png);
-  height: 30px;
-  width: 100%;
-  background-size:40px;
-  background-repeat: no-repeat;
-  background-color: #fafafa;
-  margin-bottom: -7px;
-  border-radius: 5px;
-  background-position: 10px 10px;
-}
-
 #nice .custom {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;
