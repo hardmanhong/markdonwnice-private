@@ -6,7 +6,7 @@
   "private": false,
   "main": "lib/Lib.js",
   "module": "lib/Lib.js",
-  "homepage": "https://hardmanhong.github.io/markdonwnice-private",
+  "homepage": "./",
   "license": "GPL-3.0",
   "typings": "./lib/index.d.ts",
   "repository": {
@@ -17,7 +17,7 @@
     "start": "node scripts/start.js",
     "watch": "node ./watch.js",
     "build": "node --max_old_space_size=4096 scripts/build.js",
-    "gh":"gh-pages -d build",
+    "gh":"gh-pages -d docs",
     "test": "node scripts/test.js",
     "analyze": "source-map-explorer build/static/js/*.js",
     "lint": "eslint src --ext ts,tsx,js --fix",
