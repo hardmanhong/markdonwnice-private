@@ -126,7 +126,7 @@ export const TUTORIALS = [
 # 一级标题
 
 ## 二级标题
-    
+
 ### 三级标题`,
     picture: "https://gitee.com/guanpengchn/picture/raw/master/2020-9-9/1599653309621-1.1标题.png",
   },
@@ -153,9 +153,9 @@ export const TUTORIALS = [
 一级引用如下：
 
 > ### 一级引用示例
-> 
+>
 > 读一本好书。 **——歌德**
-    
+
 二级引用如下：
 
 >> ### 二级引用示例
@@ -175,7 +175,7 @@ export const TUTORIALS = [
 **这个是粗体**
 
 *这个是斜体*
-    
+
 ***这个是粗体加斜体***`,
     picture: "https://gitee.com/guanpengchn/picture/raw/master/2020-9-9/1599653309625-1.5粗体和斜体.png",
   },
@@ -217,7 +217,7 @@ export const TUTORIALS = [
 ![这里写图片描述](https://my-wechat.mdnice.com/wechat.jpg)
 
 ![同时设置宽度和高度](https://my-wechat.mdnice.com/logo.png =150x150)
-    
+
 ![只设置宽度，推荐使用百分比](https://my-wechat.mdnice.com/logo.png =40%x)`,
     picture: "https://gitee.com/guanpengchn/picture/raw/master/2020-9-9/1599653309629-1.10图片.png",
   },
@@ -285,7 +285,7 @@ diff 效果：
 [TOC]
 
 ## 二级标题
-    
+
 ### 三级标题`,
     picture: "https://gitee.com/guanpengchn/picture/raw/master/2020-9-9/1599653309650-2.4TOC.png",
   },
@@ -308,5 +308,5 @@ export const THEME_API = () => {
   const pageSize = 15;
   const checked = true;
   const order = "ASC";
-  return `https://api.mdnice.com/themes?currentPage=${currentPage}&pageSize=${pageSize}&checked=${checked}&order=${order}`;
+  return `https://localhost/themes?currentPage=${currentPage}&pageSize=${pageSize}&checked=${checked}&order=${order}`;
 };

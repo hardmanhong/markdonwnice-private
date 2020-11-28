@@ -44,7 +44,7 @@ class VersionDialog extends Component {
       const {
         data: response,
         data: {data},
-      } = await axios.get("https://api.mdnice.com/versions/newest");
+      } = await axios.get("https://localhost/versions/newest");
       if (!response.success) {
         throw new Error();
       }

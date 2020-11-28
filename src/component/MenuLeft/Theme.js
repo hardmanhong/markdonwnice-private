@@ -46,7 +46,7 @@ class Theme extends React.Component {
       let remoteThemelist;
       if (token) {
         // 如果处于登录状态，则读取订阅的主题
-        response = await axios.get(`https://api.mdnice.com/themes/editor`, {
+        response = await axios.get(`https://localhost/themes/editor`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
